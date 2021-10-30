@@ -1,0 +1,60 @@
+body {
+    background-color: LemonChiffon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-bar {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar> h1 {
+    margin: auto;
+    margin-top: 10%;
+    border-color: SeaGreen;
+    background-color: SeaGreen;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#nav-bar> ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    margin: auto;
+    text-align: left;
+    border: solid;
+    border-color: SeaGreen;
+    background-color: SeaGreen;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#koala-home-img {
+    width: 30%;
+}
+
+h3 {
+    color:SeaGreen;
+}
+
+#koala-sleeping-img{
+    width: 30%;
+}
